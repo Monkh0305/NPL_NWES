@@ -1,0 +1,8 @@
+{
+  "name": "gaming-nlp-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "node gaming-nlp-projectNLP-main/run.cjs",
+    "dev:cloudflare": "node gaming-nlp-projectNLP-main/run.cjs --cloudflare"
+  }
+}

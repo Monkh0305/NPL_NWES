@@ -1,0 +1,29 @@
+﻿รันใน Terminal ของ VS Code จากโฟลเดอร์หลัก:
+
+เปิดในเครื่อง:
+npm run dev
+
+เปิดพร้อมลิงก์แชร์ออนไลน์:
+npm run dev:cloudflare
+
+ใช้คำสั่งเดียวกันได้ทั้งโฟลเดอร์หลักและโฟลเดอร์ gaming-nlp-projectNLP-main
+เลือกคำสั่งเดียว ทั้ง backend/frontend จะแสดง log ใน Terminal เดิม
+กด Ctrl+C ครั้งเดียวเพื่อหยุดทุกบริการที่คำสั่งนี้เปิด
+หากขึ้น Terminate batch job (Y/N)? ให้พิมพ์ Y แล้ว Enter
+หยุดหน้าต่าง backend/frontend เก่าก่อน เพื่อไม่ให้พอร์ตชนกัน
+
+สำหรับออนไลน์ รอลิงก์ https://....trycloudflare.com แล้วคัดลอกไปแชร์
+รอ backend พร้อมก่อนใช้งาน หากเปิดเร็วเกินไปให้รีเฟรช
+เปิด Terminal ค้างไว้ เครื่องต้องต่ออินเทอร์เน็ตและไม่เข้า Sleep
+ลิงก์เปลี่ยนเมื่อเปิด Tunnel ใหม่
+
+ตั้งค่าครั้งแรก (หากยังไม่ได้ติดตั้ง):
+1. ติดตั้ง Python, Node.js และ Cloudflare Tunnel (สำหรับออนไลน์)
+2. ใน backend:
+   python -m venv venv
+   .\venv\Scripts\python.exe -m pip install -r requirements.txt
+3. ใน frontend:
+   npm.cmd install
+4. ตั้ง YOUTUBE_API_KEY, GEMINI_API_KEY และ APP_MODE=live ใน backend\.env
+   เมื่อแก้ .env ให้หยุดและเปิดใหม่
+

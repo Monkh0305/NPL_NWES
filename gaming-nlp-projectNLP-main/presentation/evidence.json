@@ -1,0 +1,144 @@
+{
+  "video": {
+    "video_id": "K01DQ6BSLHE",
+    "title": "สรุปผลการแข่งขัน \"เอเชียนเกมส์ 2026\" ประจำวันที่ 26 ก.ย. 2569 | เกาะสนามข่าวเช้า l27ก.ย.69|T Sports7",
+    "channel": "T Sports 7",
+    "thumbnail": "https://i.ytimg.com/vi/K01DQ6BSLHE/mqdefault.jpg",
+    "views": 71830,
+    "likes": 956,
+    "comment_count": 33,
+    "published_at": "2026-09-27T04:00:23Z",
+    "sport_category": "Sports",
+    "category_id": "17"
+  },
+  "snapshot_at_utc": "2026-09-27 12:03:19.539641",
+  "result": {
+    "sentiment": {
+      "positive": 51.9,
+      "neutral": 14.8,
+      "negative": 33.3,
+      "sample_size": 27
+    },
+    "emotion": {
+      "joy": 51.9,
+      "anger": 18.5,
+      "sadness": 14.8,
+      "surprise": 0.0,
+      "fear": 0.0,
+      "neutral": 14.8,
+      "sample_size": 27
+    },
+    "categories": {
+      "categories": [
+        {
+          "category": "athlete",
+          "percentage": 55.6
+        },
+        {
+          "category": "performance",
+          "percentage": 37.0
+        },
+        {
+          "category": "competition",
+          "percentage": 18.5
+        },
+        {
+          "category": "venue_tickets",
+          "percentage": 14.8
+        },
+        {
+          "category": "other",
+          "percentage": 11.1
+        },
+        {
+          "category": "team",
+          "percentage": 11.1
+        },
+        {
+          "category": "broadcast_fans",
+          "percentage": 7.4
+        },
+        {
+          "category": "referee",
+          "percentage": 7.4
+        },
+        {
+          "category": "ranking",
+          "percentage": 7.4
+        },
+        {
+          "category": "coach_tactics",
+          "percentage": 3.7
+        }
+      ],
+      "sample_size": 27
+    },
+    "keywords": [
+      {
+        "keyword": "บิว",
+        "count": 6,
+        "importance": 0.222,
+        "trend_percent": null
+      },
+      {
+        "keyword": "จอชชัว",
+        "count": 4,
+        "importance": 0.148,
+        "trend_percent": null
+      },
+      {
+        "keyword": "ธงชาติ",
+        "count": 3,
+        "importance": 0.111,
+        "trend_percent": null
+      },
+      {
+        "keyword": "เหรียญทอง",
+        "count": 2,
+        "importance": 0.074,
+        "trend_percent": null
+      },
+      {
+        "keyword": "พระองค์หญิง",
+        "count": 1,
+        "importance": 0.037,
+        "trend_percent": null
+      },
+      {
+        "keyword": "ตรวจโด๊ป",
+        "count": 1,
+        "importance": 0.037,
+        "trend_percent": null
+      },
+      {
+        "keyword": "ฟรีทีวี",
+        "count": 1,
+        "importance": 0.037,
+        "trend_percent": null
+      },
+      {
+        "keyword": "สมาคม",
+        "count": 1,
+        "importance": 0.037,
+        "trend_percent": null
+      },
+      {
+        "keyword": "มวยสากล",
+        "count": 1,
+        "importance": 0.037,
+        "trend_percent": null
+      },
+      {
+        "keyword": "ตระกร้อ",
+        "count": 1,
+        "importance": 0.037,
+        "trend_percent": null
+      }
+    ],
+    "summary": {
+      "summary": "ความคิดเห็นเหล่านี้แสดงมุมมองที่หลากหลาย โดยมีความเห็นเชิงบวกชื่นชมความสามารถและผลงานของนักกีฬาไทยเช่นบิวและจอชชัว รวมถึงถวายพระพรพระองค์หญิง ในขณะเดียวกันมีความเห็นเชิงลบต่อการจัดการแข่งขัน การถ่ายทอดสดที่เข้าถึงยาก ปัญหาการไม่เตรียมธงชาติให้สนาม และความไม่พอใจการทำหน้าที่ของสมาคมกีฬาบางแห่ง ความเห็นเหล่านี้สะท้อนมุมมองเฉพาะกลุ่มจากผู้ชมบน YouTube เท่านั้น",
+      "based_on_comments": 27
+    }
+  },
+  "capture_method": "Actual UI displaying a real stored analysis snapshot; analysis POST replayed locally for capture."
+}
