@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     YOUTUBE_API_KEY: str = ""
 
     DATABASE_URL: str = "sqlite:///./sports_gemini.db"
+    CORS_ORIGINS: list[str] = ["http://localhost:5173", "http://localhost:3000"]
 
     GEMINI_API_KEY: str = ""
     GEMINI_MODEL: str = Field("gemini-3.5-flash-lite", pattern=r"^[a-zA-Z0-9._-]+$")
