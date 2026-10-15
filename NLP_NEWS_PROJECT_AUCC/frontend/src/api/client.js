@@ -7,7 +7,10 @@ import axios from "axios";
 
 // Fail visibly instead of leaving the dashboard in its loading state forever
 // when the real YouTube API or the backend is unavailable.
-const api = axios.create({ baseURL: "/api", timeout: 20_000 });
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL || "/api",
+  timeout: 20_000,
+});
 
 export const getTrendingVideos = (maxResults = 20, query = "") =>
   api.get(`/videos/trending`, { params: { max_results: maxResults, query } }).then((r) => r.data.items);
