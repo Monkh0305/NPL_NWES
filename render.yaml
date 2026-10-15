@@ -17,4 +17,4 @@ services:
       - key: GEMINI_API_KEY
         sync: false
       - key: CORS_ORIGINS
-        sync: false
+        value: '["https://deft-panda-5308e1.netlify.app"]'
